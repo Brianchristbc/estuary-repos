@@ -1,0 +1,74 @@
+* {
+  font-family: 'Roboto Slab';
+  z-index: 10;
+  text-shadow: 2px 2px #e600ff;
+  color: white;
+}
+
+.backdrop {
+  position: absolute;
+  z-index: 1;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  object-fit: cover;
+  opacity: 0.4;
+
+}
+
+body {
+  background-color: cornflowerblue;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.hero-title {
+  font-size: 120px;
+  font-family: 'Kurale', Arial, Helvetica, sans-serif;
+}
+
+.hero-body {
+  font-size: 36px;
+  font-family: 'Playfair Display', Arial, Helvetica, sans-serif;
+  text-shadow: 1px 1px rgb(17, 15, 17);
+}
+
+.email {
+  display: flex;
+  margin-top: 25px;
+}
+
+#email-input {
+  border: 2px solid white;
+  padding: 8px 22px 8px 22px;
+  border-radius: 30px;
+  background-color: cornflowerblue;
+  color: white;
+  font-size: 18px;
+  text-shadow: none;
+}
+
+#email-input::placeholder {
+  font-size: 18px;
+  text-shadow: none;
+}
+
+
+.email-button {
+  border: none;
+  padding: 8px 22px 8px 22px;
+  border-radius: 30px;
+  margin-left: 10px;
+  font-size: 18px;
+  background-color: white;
+  color: cornflowerblue;
+  text-shadow: none;
+}
